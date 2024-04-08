@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(249, 249, 237);
+    border-style:groove;
+    border-width: 4px;
+    border-color: black;   
+}
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon img {
+    height:50px;
+    width:250px;
+    padding-right: 10px;
+}
+nav a {
+    text-align: right;
+    padding-left: 10px;
+}
+.one {
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: rgb(65, 26, 105);
+    cursor: pointer;
+    color:white;
+}
+.two{
+    padding-left: 550px;
+}
+h1 {
+    margin-top: 50px;
+    color: #333;
+    padding-left: 20px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.search-icon {
+    width: 40px;
+    height: 40px;
+}
+.search-input {
+    padding: 10px;
+    border: 1px solid rgb(65, 26, 105);
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+.continue-button {
+    background-color:rgb(65, 26, 105);
+    color:white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.content-box {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-bottom: 100px;
+}
+.container {
+    display: flex;
+    background-color:rgb(65, 26, 105);
+    border-radius: 10px;
+    color:white;
+    padding: 20px;
+    border: 70px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.box {
+    border: 1px solid #bd82dd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #e7aee4;
+}
+
+img {
+    max-width: 20%;
+}
+.main{
+    text-align: center;
+}
+.containers {
+    display: flex;
+    border-radius: 10px;
+    border-color: black;
+    border-style: inset;
+    border-width: 1px;
+    background-color:white;
+}
+
+.columns {
+    flex: 1;
+    padding: 10px;
+}
+
+.product-details {
+    background-color: #f9f8f3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 10px;
+    background-color:rgb(255, 136, 0);
+    color:white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.contain {
+    position: relative;
+    display: inline-block;
+    padding:40px;
+    background-image: url('background 2.2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 200px;
+    width: 250px;
+    height:370px ;
+}
+.middle{ 
+    background-image: url('screen1.0.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.access{
+    padding-left: 600px;
+    height: 100px;
+    width:150px;     
+}
